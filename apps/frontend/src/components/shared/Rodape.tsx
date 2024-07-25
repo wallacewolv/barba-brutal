@@ -30,10 +30,10 @@ export default function Rodape() {
                 </div>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-5">
                     <div className="flex gap-2 text-zinc-400">
-                        <IconBrandYoutube className='text-red-700' size={28} stroke={1} />
-                        <IconBrandInstagram className='text-pink-700 ml-1' size={28} stroke={1} />
-                        <IconBrandFacebook className='text-blue-700' size={28} stroke={1} />
-                        <IconBrandLinkedin className='text-cyan-700' size={28} stroke={1} />
+                        <IconBrandYoutube size={28} stroke={1} />
+                        <IconBrandInstagram className=' ml-1' size={28} stroke={1} />
+                        <IconBrandFacebook size={28} stroke={1} />
+                        <IconBrandLinkedin size={28} stroke={1} />
                     </div>
                     <div className="flex flex-col md:flex-row items-center gap-1.5 text-zinc-400 text-sm">
                         <div className="flex gap-1.5">
