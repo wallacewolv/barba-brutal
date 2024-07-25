@@ -1,5 +1,6 @@
 'use-client'
 
+import NossosClientes from "@/components/cliente/NossosClientes"
 import TituloSlogan from "@/components/landing/TituloSlogan"
 import NossosProfissionais from "@/components/profissional/NossosProfissionais"
 import NossosServicos from "@/components/servico/NossosServicos"
@@ -14,6 +15,9 @@ export default function Landing() {
             </ContainerComBackground>
             <ContainerComBackground imagem="/banners/profissionais.webp">
                 <NossosProfissionais />
+            </ContainerComBackground>
+            <ContainerComBackground imagem="/banners/clientes.webp">
+                <NossosClientes />
             </ContainerComBackground>
         </div>
     )
